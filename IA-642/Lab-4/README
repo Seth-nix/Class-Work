@@ -1,0 +1,23 @@
+IA-642 Lab 4: Wazuh Manager & Agent Lab
+
+Overview:
+Lab for installing Wazuh Manager and Agents, simulating attacks, and viewing alerts.
+
+Files:
+Wazuh-Manger-Ubuntu.sh - Installs Wazuh Manager
+Wazuh-Agent-Ubuntu.sh - Installs Wazuh Agent on Ubuntu
+Wazuh-Agent-Windows.ps1 - Installs Wazuh Agent on Windows
+Kali-Attack-Simulation.sh - Simulates failed logins, sudo abuse, and scans
+
+Usage:
+Install Wazuh Manager:
+sudo bash Wazuh-Manger-Ubuntu.sh
+
+Install Ubuntu Agent:
+sudo bash Wazuh-Agent-Ubuntu.sh
+
+Install Windows Agent:
+.\Wazuh-Agent-Windows.ps1
+
+Run attack simulation:
+bash Kali-Attack-Simulation.sh
